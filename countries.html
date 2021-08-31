@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries</title>
+
+    <style>
+
+
+#countries-container {
+
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 8px;
+
+
+}
+
+
+
+.country{
+  
+   
+    background-color: steelblue;
+    border: 5px solid silver;
+    border-radius: 12px;
+}
+
+.button {
+
+background-color: silver;
+border: white 1px solid;
+border-radius: 10px;
+
+}
+.button:hover{
+
+background-color: white;
+border: white 1px solid;
+border-radius: 10px;
+
+}
+
+    </style>
+</head>
+<body>
+<section>
+<h2> Country Details </h2>
+<div id="country-detail"> 
+
+</div>
+
+</section>
+
+
+
+    <h1 id="top-text" style=" display: block; width: 400px; margin: auto; margin-bottom: 20px; background-color: darkgrey; display: block ;"> Hello Aliens! Select the Country  </h1>
+<div id="countries-container">
+   
+
+
+
+</div>
+
+
+
+ <script src="countries.js">
+
+ </script>   
+</body>
+</html>
